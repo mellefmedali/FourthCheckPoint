@@ -1,0 +1,92 @@
+/* import Roboto font from google.fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+
+/*set the style for the title*/
+.pagetitle { font-size: 400%;
+    color: blue;
+    text-shadow: 2px 2px red;
+    }
+
+/*set Roboto style for all the body*/
+body {
+    background-color:aliceblue;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+}
+
+section{
+    clear: both;
+}
+
+h1 {
+    font-size: 300%;
+    color: blue;
+  text-align: inherit;
+  clear:both;
+}
+
+h2 {
+    font-size: 150%;
+    color: purple;
+    
+}
+
+nav li{
+    text-align: center;
+    display: inline-block;
+    height:40mm;
+    width: 40mm;
+    
+}
+
+nav img{
+    height: 40mm;
+  width: 40mm;
+  border: 1mm;
+  transition: width 2s, height 2s, transform 1s;
+}
+
+nav img:hover {
+    width: 45mm;
+    height: 45mm;
+            
+}
+
+li {
+    text-align: left;
+    display: block;
+}
+
+aside{
+    float: right;
+}
+
+img.smallPic:hover, img.smallPic:active{
+    width: 40%;
+    
+}
+
+.smallPic{
+    border-style: dotted;
+    border-radius: 3cm;
+    border-color: black;
+    border-width: 1mm;
+}
+.classA4 img{
+    width: 100%;
+    border-radius: 2cm;
+    border-style:groove;
+    border-width: 1mm;
+}
+
+.totheleft{
+    text-align: left;
+}
+
+#sectionContact {
+    text-align: left;
+}
+footer{
+    text-align: right;
+    font-size: smaller;
+}
